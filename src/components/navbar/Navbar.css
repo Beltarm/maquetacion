@@ -1,0 +1,44 @@
+:root {
+	--main-bg-color: #5f42d1;
+}
+
+nav.navbar {
+	padding-top: 50px;
+	max-height: 20vh;
+}
+
+p.navbar-brand {
+	color: var(--main-bg-color);
+	font-size: 25px;
+	font-weight: bold;
+}
+
+p.nav-link {
+	margin: 8px 15px;
+	color: #aba6a9;
+}
+
+p.nav-link.active {
+	color: var(--main-bg-color);
+}
+
+.fa-shopping-basket {
+	color: var(--main-bg-color);
+	font-size: 25px;
+}
+
+p.btn-round {
+	border-radius: 10em;
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+	border-color: var(--main-bg-color);
+	font-weight: bold;
+	/*color: var(--main-bg-color) !important;*/
+}
+
+p.btn-round:hover {
+	transition-duration: 200ms;
+	border-color: var(--main-bg-color);
+	background-color: var(--main-bg-color);
+	color: white;
+}
